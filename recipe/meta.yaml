@@ -1,4 +1,4 @@
-{% set version = "0.4.0" %}
+{% set version = "0.4.1" %}
 
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
@@ -11,7 +11,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/cffr_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/cffr/cffr_{{ version }}.tar.gz
-  sha256: fbb25a7dbaf29965edde0510128b758f881b8bed34c7257403e4cf1d281bcf6f
+  sha256: 58476f8934d7252a76369b6836ba302b01facc1f7aa1faf9b8dad25c6d330bfe
 
 build:
   merge_build_host: true  # [win]
