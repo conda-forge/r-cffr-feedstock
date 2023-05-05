@@ -1,11 +1,22 @@
+About r-cffr-feedstock
+======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-cffr-feedstock/blob/main/LICENSE.txt)
+
 About r-cffr
-============
+------------
 
 Home: https://docs.ropensci.org/cffr/, https://github.com/ropensci/cffr
 
 Package license: GPL-3.0-or-later
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-cffr-feedstock/blob/main/LICENSE.txt)
+Summary: The Citation File Format version 1.2.0 <doi:10.5281/zenodo.5171937> is a human and machine readable file format which provides citation metadata for software. This package provides core utilities to generate and validate this metadata.
+About r-cffr
+------------
+
+Home: https://docs.ropensci.org/cffr/, https://github.com/ropensci/cffr
+
+Package license: GPL-3.0-or-later
 
 Summary: The Citation File Format version 1.2.0 <doi:10.5281/zenodo.5171937> is a human and machine readable file format which provides citation metadata for software. This package provides core utilities to generate and validate this metadata.
 
