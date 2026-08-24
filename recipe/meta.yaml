@@ -1,4 +1,4 @@
-{% set version = "1.4.1" %}
+{% set version = "1.4.2" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/cffr_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/cffr/cffr_{{ version }}.tar.gz
-  sha256: 04ec4c652e82d04db560aa8579109a24b3ee80e1e6cc05d1274dbafaef7a8e48
+  sha256: d61190704336375795cf338759f4c0d24c5fc98dfc22ee2d82619448bb13b41e
 
 build:
   noarch: generic
